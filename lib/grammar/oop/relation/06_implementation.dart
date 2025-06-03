@@ -1,6 +1,12 @@
 
-interface class Calculate {
+import 'dart:nativewrappers/_internal/vm/lib/ffi_allocation_patch.dart';
+
+abstract class Calculate {
   void calculate() {}
+
+  // void calculate() {
+  //   print("interface 默认实现 calculate");
+  // }
 }
 
 interface class Electric {
